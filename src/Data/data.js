@@ -2,6 +2,7 @@ import chatapp from '../Assets/chatapp.png'
 import fittrk from '../Assets/fit-trk.png'
 import urlshort from '../Assets/url-short.png'
 import landingpage from '../Assets/landing-page.png'
+import groupchat from '../Assets/group-chat.png'
 
 export const data=[
     {
@@ -31,6 +32,13 @@ export const data=[
         image:landingpage,
         github:"https://github.com/mohitbish/Responsive-Landingpage",
         live:"https://landing-page-v0sf.onrender.com",
+    },
+    {
+        id:5,
+        name:"Angular Group-Chat",
+        image:groupchat,
+        github:"https://github.com/mohitbish/Chat-web-application",
+        live:"https://group-chat-5fx3.onrender.com",
     },
 
 

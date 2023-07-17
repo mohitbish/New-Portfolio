@@ -14,7 +14,7 @@ const Work = () => {
             Work
           </p>
           <p className="py-6">// Check out some of my recent work</p>
-          <p className="py-6">// Please allow extra time for data loading from api on first try</p>
+          <p className="py-6">// Please allow extra time for data loading from api on first try, Free instance types spins down with inactivity</p>
         </div>
 
         {/* container for projects */}
