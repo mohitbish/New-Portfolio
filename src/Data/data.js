@@ -36,7 +36,7 @@ export const data=[
     {
         id:5,
         name:"Angular Group-Chat",
-        image:groupchat,
+        image: groupchat,
         github:"https://github.com/mohitbish/Chat-web-application",
         live:"https://group-chat-5fx3.onrender.com",
     },
