@@ -95,6 +95,7 @@ const Navbar = () => {
             <a
               className="flex justify-between ml-[5px] items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/mohit-bishnoi-3a5025252/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -103,6 +104,7 @@ const Navbar = () => {
             <a
               className="flex justify-between ml-[5px] items-center w-full text-gray-300"
               href="https://github.com/mohitbish"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -111,6 +113,7 @@ const Navbar = () => {
             <a
               className="flex justify-between ml-[5px] items-center w-full text-gray-300"
               href="mailto:bishnoi.mohit@icloud.com"
+              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -118,7 +121,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between ml-[5px] items-center w-full text-gray-300"
-              href="/"
+              href="https://drive.google.com/file/d/1A2m6gxCkUvJu253zlGJsHRMb3TOx1Ox8/view"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
