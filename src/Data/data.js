@@ -1,8 +1,7 @@
-import chatapp from '../Assets/chatapp.png'
-import fittrk from '../Assets/fit-trk.png'
-import urlshort from '../Assets/url-short.png'
-import landingpage from '../Assets/landing-page.png'
-import groupchat from '../Assets/group-chat.png'
+import chatapp from '../Assets/chat-app.jpeg'
+import fittrk from '../Assets/fit-trk.webp'
+import landingpage from '../Assets/codeimg.jpeg'
+import groupchat from '../Assets/img.webp'
 
 export const data=[
     {
@@ -21,20 +20,13 @@ export const data=[
     },
     {
         id:3,
-        name:"Url-Shortener",
-        image:urlshort,
-        github:"https://github.com/mohitbish/React-URL-SHORT",
-        live:"https://url-short-561b.onrender.com",
-    },
-    {
-        id:4,
         name:"Responsive Landing-Page",
         image:landingpage,
         github:"https://github.com/mohitbish/Responsive-Landingpage",
         live:"https://landing-page-v0sf.onrender.com",
     },
     {
-        id:5,
+        id:4,
         name:"Angular Group-Chat",
         image: groupchat,
         github:"https://github.com/mohitbish/Chat-web-application",
