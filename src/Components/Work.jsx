@@ -14,7 +14,10 @@ const Work = () => {
             Work
           </p>
           <p className="py-6">// Check out some of my recent work</p>
-          <p className="py-6">// Please allow extra time for data loading from api on first try, Free instance types spins down with inactivity</p>
+          <p className="py-6">
+            // Please allow extra time for data loading from api on first try,
+            Free instance types spins down with inactivity
+          </p>
         </div>
 
         {/* container for projects */}
@@ -25,34 +28,44 @@ const Work = () => {
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
+              flex flex-col justify-center text-center items-center mx-auto content-div "
             >
-              <span className="text-3xl font-bold text-white tracking-wider ">
-                  {item.name}
-                </span>
-              {/* Hover effect for images */}
-              <div className="opacity-0 group-hover:opacity-100  ">
-                <div className="pt-8 text-center ">
-                  {/* eslint-disable-next-line */}
-                  <a href={item.github} target="_blank">
-                    <button
-                      className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
-                    >
-                      Code
-                    </button>
-                  </a>
-                  {/* eslint-disable-next-line */}
-                  <a href={item.live} target="_blank">
-                    <button
-                      className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
-                    >
-                      Live
-                    </button>
-                  </a>
+              <span className="text-2xl font-bold text-white tracking-wider mb-3 ">
+                {item.name}
+              </span>
+              <span className="font-semibold text-white tracking-wider ">
+                {item.tech}
+                <div className="opacity-0 group-hover:opacity-100 ">
+                  <div className="pt-8 text-center ">
+                    {/* eslint-disable-next-line */}
+                    <a href={item.github} target="_blank">
+                      <button
+                        type="button"
+                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      >
+                        Code
+                      </button>
+                    </a>
+                    {/* eslint-disable-next-line */}
+                    <a href={item.live} target="_blank">
+                      <button
+                        type="button"
+                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      >
+                        Live
+                      </button>
+                    </a>
+                    <a href={item.live} target="_blank">
+                      <button
+                        type="button"
+                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                      >
+                        Youtube
+                      </button>
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </span>
             </div>
           ))}
         </div>
