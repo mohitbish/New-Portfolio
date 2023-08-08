@@ -27,13 +27,13 @@ const Work = () => {
             <div
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md 
+              className=" shadow-lg shadow-[#040c16] group container rounded-md 
               flex flex-col justify-center text-center items-center mx-auto content-div "
             >
               <span className="text-2xl font-bold text-white tracking-wider mb-3 ">
                 {item.name}
               </span>
-              <span className="font-semibold text-white tracking-wider ">
+              <span className="font-semibold text-white tracking-wider mb-3 ">
                 {item.tech}
                 <div className="opacity-0 group-hover:opacity-100 ">
                   <div className="pt-8 text-center ">
@@ -41,7 +41,7 @@ const Work = () => {
                     <a href={item.github} target="_blank">
                       <button
                         type="button"
-                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-bold uppercase text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                       >
                         Code
                       </button>
@@ -50,15 +50,19 @@ const Work = () => {
                     <a href={item.live} target="_blank">
                       <button
                         type="button"
-                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-bold uppercase text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                       >
                         Live
                       </button>
                     </a>
-                    <a href={item.live} target="_blank">
+                    <a href={item.youtube} target="_blank">
                       <button
                         type="button"
-                        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        className={
+                          item.id === 4
+                            ? "hidden"
+                            : "py-2.5 px-5 mr-2 mb-2 text-sm  text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                        }
                       >
                         Youtube
                       </button>
