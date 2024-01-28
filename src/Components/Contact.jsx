@@ -27,7 +27,7 @@ const Contact = () => {
             </a>
             <a
               className=" ml-[15px] items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/mohit-bishnoi-3a5025252/"
+              href="https://www.linkedin.com/in/mohit--bishnoi"
             >
               <LinkedInIcon />
             </a>

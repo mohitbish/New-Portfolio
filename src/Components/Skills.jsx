@@ -7,7 +7,10 @@ import ReactImg from "../Assets/react.png";
 import Node from "../Assets/node.png";
 import Tailwind from "../Assets/tailwind.png";
 import Mongo from "../Assets/mongo.png";
-import Angular from "../Assets/angular.png";
+import mysql from  "../Assets/mysql.png"
+import java from  "../Assets/java-logo.png"
+import spring from  "../Assets/spring.png"
+
 
 const Skills = () => {
   return (
@@ -35,8 +38,16 @@ const Skills = () => {
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={java} alt="HTML icon" />
+            <p className="my-4">Java</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">REACT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={spring} alt="HTML icon" />
+            <p className="my-4">Spring Boot</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -48,8 +59,8 @@ const Skills = () => {
             <p className="my-4">MONGO DB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Angular} alt="HTML icon" />
-            <p className="my-4">ANGULAR</p>
+            <img className="w-20 mx-auto" src={mysql} alt="HTML icon" />
+            <p className="my-4">MySQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />

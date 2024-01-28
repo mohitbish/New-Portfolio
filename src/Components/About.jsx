@@ -15,13 +15,13 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hi. I'm Mohit Bishnoi, nice to meet you. Please take a look
+              Hi. I'm Mohit, nice to meet you. Please take a look
               around.
             </p>
           </div>
           <div>
             <p>
-              I am a passionate full stack developer with a strong background in
+              I am a passionate full stack Engineer with a strong background in
               both front-end and back-end technologies. Apart from my technical
               skills, I am an avid gym enthusiast and enjoy exploring new places
               through travel
